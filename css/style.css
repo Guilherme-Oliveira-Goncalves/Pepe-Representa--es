@@ -249,9 +249,6 @@
 
 #news-container,
 #contact-container,
-#contact-container a {
-  text-decoration: none;
-}
 #links-container {
   padding: 0;
   border: 0;
@@ -268,16 +265,8 @@
   border: none;
 }
 
-#news-container a[href^="mailto"] {
-  text-decoration: none;
-}
-
 #links-container li {
   margin-bottom: 0.5em;
-}
-
-#links-container a {
-  text-decoration: none;
 }
 
 #links-container a:hover {
