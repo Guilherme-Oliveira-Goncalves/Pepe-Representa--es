@@ -249,6 +249,9 @@
 
 #news-container,
 #contact-container,
+#contact-container a {
+  text-decoration: none;
+}
 #links-container {
   padding: 0;
   border: 0;
@@ -263,6 +266,10 @@
 #news-container input {
   border-radius: 0;
   border: none;
+}
+
+#news-container a[href^="mailto"] {
+  text-decoration: none;
 }
 
 #links-container li {
