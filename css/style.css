@@ -86,11 +86,31 @@
   margin: 0 1em;
 }
 
+/* EFEITO HOVER */
+
+#info-banner img {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#info-banner img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.featurette .img-fluid {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.featurette .img-fluid:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 /* SLIDER */
 #slider {
-  margin-top: 6em;
+  margin-top: 5em;
   margin-bottom: 1em;
 }
+/* ANTES ERA 6em */
 
 #slider .carousel-caption {
   bottom: 1em;
@@ -120,6 +140,11 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 768px) {
+  #slider {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
   #slider .carousel-caption {
     bottom: 15em;
   }
