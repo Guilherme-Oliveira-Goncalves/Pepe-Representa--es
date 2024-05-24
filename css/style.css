@@ -110,10 +110,9 @@
   margin-top: 5em;
   margin-bottom: 1em;
 }
-/* ANTES ERA 6em */
 
 #slider .carousel-caption {
-  bottom: 1em;
+  bottom: 10px;
 }
 
 #slider .carousel-caption h5 {
@@ -122,7 +121,7 @@
 }
 
 .btn {
-  border-radius: 0;
+  border-radius: 5;
 }
 
 #slider .btn {
@@ -160,6 +159,10 @@
   .carousel-indicators {
     bottom: 7em;
   }
+}
+
+p {
+  text-align: justify;
 }
 
 /* MINI BANNERS */
